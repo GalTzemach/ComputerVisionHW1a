@@ -53,6 +53,7 @@ int main()
 
 void MouseCallBackFunc(int event, int x, int y, int flags, void* sourceImg)
 {
+	waitKey(15);
 	if (event == EVENT_LBUTTONDOWN)
 	{
 		startDrawing = true;
